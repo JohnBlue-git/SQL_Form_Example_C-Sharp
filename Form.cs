@@ -67,6 +67,9 @@ namespace SQL_Form_Example
 
                     command.Parameters.Clear();
                     command.CommandText = "INSERT INTO dbo.[Table] (Id, Name) VALUES (" + (++Index).ToString() + ",'" + Name + "');";
+                    command.CommandText = "INSERT INTO dbo.[Table] (Id, Name) VALUES (" + (++Index).ToString() + ",'" + Name + "');";
+                    // only Name is not work
+                    //command.CommandText = "INSERT INTO dbo.[Table] (Name) VALUES ('" + Name + "');";
                     command.ExecuteNonQuery();
                 }
                 catch (SqlException e)
