@@ -4,7 +4,11 @@ An example of using SQL in WinForm.
 
 ## Confriguration of coding
 
-SQL_Form_Example.cs works as the main function in where Form object (defined from Form.cs and Form.Designer.cs) is allocated and run.
+SQL_Form_Example.cs works as the main function in where Form object is allocated and run.
+
+where
+
+Form object is defined in Form.cs and Form.Designer.cs
 
 ## Video Demonstration
 
